@@ -189,3 +189,7 @@ docker-compose down -v
 
 
 ✅ Now your project is fully built, version-controlled, containerized, and running in a multi-container environment.
+
+
+
+netstat -aon | findstr :8080
