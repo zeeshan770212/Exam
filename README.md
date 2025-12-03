@@ -42,6 +42,10 @@ cd "C:\Users\Zeeshan\OneDrive\Desktop\Flight repo\flightrepo"
 git init                 # Initialize repo
 git add .                # Add all files
 git commit -m "Initial commit"
+git remote -v
+git remote set-url origin https://github.com/yourusername/flightrepo.git
+
+
 git remote add origin https://github.com/yourusername/flightrepo.git
 git branch -M main
 git push -u origin main
@@ -189,7 +193,6 @@ docker-compose down -v
 
 
 ✅ Now your project is fully built, version-controlled, containerized, and running in a multi-container environment.
-
 
 
 netstat -aon | findstr :8080
